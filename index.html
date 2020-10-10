@@ -259,6 +259,7 @@ nav form .search-data{
   border: none;
   font-weight: 500;
   background: none;
+  z-index:3;
 }
 nav form button{
   padding: 0 15px;
@@ -268,9 +269,11 @@ nav form button{
   border: none;
   border-radius: 2px;
   cursor: pointer;
+  z-index:3;
 }
 nav form button:hover{
   background: #e63600;
+  z-index:3;
 }
 nav .menu-icon,
 nav .cancel-icon,
@@ -357,7 +360,7 @@ nav .search-icon{
     background: #1e232b;
     border-radius: 2px;
     min-width: calc(100% + 20px);
-    z-index: -2;
+    z-index: 2;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
